@@ -24,8 +24,8 @@ public class Main
 	
 	
 	// for JEdit Dataset
-	private static final String inputFile = "/home/cms500/workspace/dataset/JEdit/outputNameJEdit.txt";
-	private static  String outputFile = "/home/cms500/workspace/dataset/JEdit/outputNumberJEdit_1.txt";
+	private static final String inputFile = "/home/cms500/workspace/dataset/JEdit/outputNameJEdit1.txt";
+	private static  String outputFile = "/home/cms500/workspace/dataset/JEdit/outputNumberJEdit1_1.txt";
 	
 	
 	private static List<String> info;
@@ -182,7 +182,7 @@ public class Main
 		}	//catch	
 		 
 		bw.close();
-		info.add("Maximum Size of an observation:"+ max);
+		info.add("Maximum Size of an observation: "+ max);
 		
 	}
 	

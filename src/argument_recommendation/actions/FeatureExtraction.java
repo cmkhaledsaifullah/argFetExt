@@ -49,7 +49,7 @@ public class FeatureExtraction
 		
 		
 		//For JEdit Dataset
-		File file = new File("/home/cms500/workspace/dataset/Random/outputNameRandom.txt");
+		File file = new File("/home/cms500/workspace/dataset/Random/outputNameJEdit1.txt");
 		
 		
 		if (!file.exists()) {
@@ -148,8 +148,8 @@ public class FeatureExtraction
 			                	//if the package is javax.swing
 			                	try
 			                	{
-				                    //if(typeBinding.getPackage().getName().equals("javax.swing"))
-				                    //{
+				                    if(typeBinding.getPackage().getName().equals("javax.swing"))
+				                    {
 				                    	int flag=0;
 				                    	for(int i=0;i<recievername.size();i++)
 				                    	{
@@ -197,7 +197,7 @@ public class FeatureExtraction
 				                    	}
 				                        
 				
-				                    //}	//if (typeBinding.getPackage().getName().equals("javax.swing"))
+				                    }	//if (typeBinding.getPackage().getName().equals("javax.swing"))
 			                	}
 			                	catch(Exception ex)
 			                	{
