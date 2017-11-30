@@ -8,7 +8,6 @@ import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 import org.eclipse.jface.dialogs.MessageDialog;
-
 /**
  * Our sample action implements workbench action delegate.
  * The action proxy will be created by the workbench and

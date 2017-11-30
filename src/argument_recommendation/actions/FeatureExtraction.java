@@ -41,6 +41,14 @@ public class FeatureExtraction
 	BufferedWriter bw= null;
 	public FeatureExtraction() throws IOException
 	{
+		String filename = "outputNameJEdit2.txt";
+		String dataset = "JEdit";
+		String workingDirectory = System.getProperty("user.dir")+File.separator+"dataset"+File.separator+dataset;
+
+		//****************//
+
+		File file = new File(workingDirectory, filename);
+		
 		//For Random Dataset
 		//File file = new File("/home/cms500/workspace/dataset/Random/outputNameRandom.txt");
 		
@@ -49,7 +57,8 @@ public class FeatureExtraction
 		
 		
 		//For JEdit Dataset
-		File file = new File("/home/cms500/workspace/dataset/Random/outputNameJEdit1.txt");
+		//File file = new File("/home/cms500/workspace/dataset/Random/outputNameJEdit1.txt");
+		
 		
 		
 		if (!file.exists()) {
